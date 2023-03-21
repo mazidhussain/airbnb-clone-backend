@@ -23,7 +23,7 @@ const jwtSecret = 'MazidHussainAnsari';
 
 app.use(cors({
     credentials:true,
-    origin:'https://6412a6eae57bc8321c7afdab--euphonious-marzipan-5dc245.netlify.app',
+    origin:'https://kaleidoscopic-kelpie-143602.netlify.app',
 }));
 mongoose.connect(process.env.MONGO_URL);
 
