@@ -23,7 +23,7 @@ const jwtSecret = 'MazidHussainAnsari';
 
 app.use(cors({
     credentials:true,
-    origin:'https://airbnb-clone-site.netlify.app/',
+    origin:'https://kaleidoscopic-kelpie-143602.netlify.app',
 }));
 mongoose.connect(process.env.MONGO_URL);
 
